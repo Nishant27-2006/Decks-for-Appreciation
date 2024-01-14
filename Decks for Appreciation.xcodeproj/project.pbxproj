@@ -11,9 +11,6 @@
 		DEA065DE2B547E7400BB6D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065DD2B547E7400BB6D0D /* ContentView.swift */; };
 		DEA065E02B547E7500BB6D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA065DF2B547E7500BB6D0D /* Assets.xcassets */; };
 		DEA065E32B547E7500BB6D0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */; };
-		DEA065ED2B547E7500BB6D0D /* Decks_for_AppreciationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065EC2B547E7500BB6D0D /* Decks_for_AppreciationTests.swift */; };
-		DEA065F72B547E7500BB6D0D /* Decks_for_AppreciationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065F62B547E7500BB6D0D /* Decks_for_AppreciationUITests.swift */; };
-		DEA065F92B547E7500BB6D0D /* Decks_for_AppreciationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065F82B547E7500BB6D0D /* Decks_for_AppreciationUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		DEA065DF2B547E7500BB6D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEA065E82B547E7500BB6D0D /* Decks for AppreciationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decks for AppreciationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA065EC2B547E7500BB6D0D /* Decks_for_AppreciationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decks_for_AppreciationTests.swift; sourceTree = "<group>"; };
 		DEA065F22B547E7500BB6D0D /* Decks for AppreciationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decks for AppreciationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA065F62B547E7500BB6D0D /* Decks_for_AppreciationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decks_for_AppreciationUITests.swift; sourceTree = "<group>"; };
-		DEA065F82B547E7500BB6D0D /* Decks_for_AppreciationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decks_for_AppreciationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				DEA065DA2B547E7400BB6D0D /* Decks for Appreciation */,
-				DEA065EB2B547E7500BB6D0D /* Decks for AppreciationTests */,
-				DEA065F52B547E7500BB6D0D /* Decks for AppreciationUITests */,
 				DEA065D92B547E7400BB6D0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DEA065EB2B547E7500BB6D0D /* Decks for AppreciationTests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA065EC2B547E7500BB6D0D /* Decks_for_AppreciationTests.swift */,
-			);
-			path = "Decks for AppreciationTests";
-			sourceTree = "<group>";
-		};
-		DEA065F52B547E7500BB6D0D /* Decks for AppreciationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA065F62B547E7500BB6D0D /* Decks_for_AppreciationUITests.swift */,
-				DEA065F82B547E7500BB6D0D /* Decks_for_AppreciationUITestsLaunchTests.swift */,
-			);
-			path = "Decks for AppreciationUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA065ED2B547E7500BB6D0D /* Decks_for_AppreciationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA065F92B547E7500BB6D0D /* Decks_for_AppreciationUITestsLaunchTests.swift in Sources */,
-				DEA065F72B547E7500BB6D0D /* Decks_for_AppreciationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
