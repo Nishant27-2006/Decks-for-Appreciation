@@ -48,10 +48,19 @@ struct LoginView: View{
                 .opacity(formIsValid ? 1.0 : 0.5)
                 .cornerRadius(10)
                 .padding(.top, 24)
+                //Forgot password
                 Spacer()
-                
+                NavigationLink {
+                    RegistrationView().navigationBarBackButtonHidden(true)
+                } label: {
+                    HStack(spacing: 10) {
+                        Text("Forgot Password?")
+                            .fontWeight(.bold)
+                    }
+                    .font(.system(size: 14))
+                }
                 //Sign up button
-                
+                Spacer()
                 NavigationLink {
                     RegistrationView().navigationBarBackButtonHidden(true)
                 } label: {

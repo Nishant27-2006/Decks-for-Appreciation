@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Firebase
-
+//Main method of the whole code
 @main
 struct Decks_for_AppreciationApp: App {
     @StateObject var viewModel = AuthViewModel()
