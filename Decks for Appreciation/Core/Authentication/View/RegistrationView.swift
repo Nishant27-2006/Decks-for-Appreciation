@@ -34,6 +34,7 @@ struct RegistrationView: View{
                 Task{
                     try await viewModel.createUser(withEmail: email, password: password, fullname: fullname)
                 }
+                
             } label:{
                 HStack {
                     Text("SIGN UP").fontWeight(.semibold)

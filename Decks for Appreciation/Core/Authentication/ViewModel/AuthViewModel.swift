@@ -4,9 +4,9 @@
 //
 //  Created by Neelima Gadde on 1/14/24.
 //
-
 import Foundation
 import Firebase
+import FirebaseFirestoreSwift
 
 class AuthViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
@@ -19,7 +19,15 @@ class AuthViewModel: ObservableObject {
         print("Sign in..")
     }
     func createUser(withEmail email: String, password: String, fullname: String) async throws{
-        print("Create user")
+        do{
+            let result = try await Auth.auth().createUser(withEmail: email, password: password)
+            self.userSession = result.user
+            let user = User(id: result.user.uid, fullname: fullname, email: email)
+            let encodedUser = try Firestore.Encoder().encode(user)
+            try await Firestore.firestore().collection("users").document(user.id).setData(encodedUser)
+        } catch {
+            print("DEBUG: Failed to create user with error \(error.localizedDescription)")
+        }
     }
     func signOut(){
         
