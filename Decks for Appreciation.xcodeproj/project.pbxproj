@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEA065DC2B547E7400BB6D0D /* Decks_for_AppreciationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065DB2B547E7400BB6D0D /* Decks_for_AppreciationApp.swift */; };
 		DEA065DE2B547E7400BB6D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065DD2B547E7400BB6D0D /* ContentView.swift */; };
 		DEA065E02B547E7500BB6D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA065DF2B547E7500BB6D0D /* Assets.xcassets */; };
 		DEA065E32B547E7500BB6D0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */; };
+		DEA066102B549A4500BB6D0D /* Decks_for_AppreciationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0660F2B549A4500BB6D0D /* Decks_for_AppreciationApp.swift */; };
+		DEA066122B549A9800BB6D0D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA066112B549A9800BB6D0D /* LoginView.swift */; };
+		DEA066142B549BF800BB6D0D /* Decks of Appreciation.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA066132B549BF800BB6D0D /* Decks of Appreciation.png */; };
+		DEA066172B549D7B00BB6D0D /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA066162B549D7B00BB6D0D /* InputView.swift */; };
+		DEA066192B54A42900BB6D0D /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA066182B54A42900BB6D0D /* RegistrationView.swift */; };
+		DEA0661B2B54A7CE00BB6D0D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0661A2B54A7CE00BB6D0D /* ProfileView.swift */; };
+		DEA0661F2B54A9C600BB6D0D /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0661E2B54A9C600BB6D0D /* SettingsRowView.swift */; };
+		DEA066212B54ABD300BB6D0D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA066202B54ABD300BB6D0D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +39,19 @@
 
 /* Begin PBXFileReference section */
 		DEA065D82B547E7400BB6D0D /* Decks for Appreciation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decks for Appreciation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA065DB2B547E7400BB6D0D /* Decks_for_AppreciationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decks_for_AppreciationApp.swift; sourceTree = "<group>"; };
 		DEA065DD2B547E7400BB6D0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEA065DF2B547E7500BB6D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEA065E82B547E7500BB6D0D /* Decks for AppreciationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decks for AppreciationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA065F22B547E7500BB6D0D /* Decks for AppreciationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decks for AppreciationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA0660F2B549A4500BB6D0D /* Decks_for_AppreciationApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decks_for_AppreciationApp.swift; sourceTree = "<group>"; };
+		DEA066112B549A9800BB6D0D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DEA066132B549BF800BB6D0D /* Decks of Appreciation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Decks of Appreciation.png"; sourceTree = "<group>"; };
+		DEA066162B549D7B00BB6D0D /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		DEA066182B54A42900BB6D0D /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		DEA0661A2B54A7CE00BB6D0D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DEA0661E2B54A9C600BB6D0D /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		DEA066202B54ABD300BB6D0D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +100,12 @@
 		DEA065DA2B547E7400BB6D0D /* Decks for Appreciation */ = {
 			isa = PBXGroup;
 			children = (
-				DEA065DB2B547E7400BB6D0D /* Decks_for_AppreciationApp.swift */,
-				DEA065DD2B547E7400BB6D0D /* ContentView.swift */,
+				DEA0660A2B54991200BB6D0D /* App */,
+				DEA066092B54991100BB6D0D /* Components */,
+				DEA066082B54991000BB6D0D /* Core */,
+				DEA066072B54990F00BB6D0D /* Model */,
 				DEA065DF2B547E7500BB6D0D /* Assets.xcassets */,
+				DEA066132B549BF800BB6D0D /* Decks of Appreciation.png */,
 				DEA065E12B547E7500BB6D0D /* Preview Content */,
 			);
 			path = "Decks for Appreciation";
@@ -100,6 +117,66 @@
 				DEA065E22B547E7500BB6D0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEA066072B54990F00BB6D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEA066202B54ABD300BB6D0D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEA066082B54991000BB6D0D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0660D2B54994B00BB6D0D /* Authentication */,
+				DEA0660C2B54994A00BB6D0D /* Profile */,
+				DEA0660E2B54995A00BB6D0D /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DEA066092B54991100BB6D0D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DEA066162B549D7B00BB6D0D /* InputView.swift */,
+				DEA0661E2B54A9C600BB6D0D /* SettingsRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DEA0660A2B54991200BB6D0D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0660F2B549A4500BB6D0D /* Decks_for_AppreciationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DEA0660C2B54994A00BB6D0D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0661A2B54A7CE00BB6D0D /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DEA0660D2B54994B00BB6D0D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DEA066112B549A9800BB6D0D /* LoginView.swift */,
+				DEA066182B54A42900BB6D0D /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DEA0660E2B54995A00BB6D0D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DEA065DD2B547E7400BB6D0D /* ContentView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA066142B549BF800BB6D0D /* Decks of Appreciation.png in Resources */,
 				DEA065E32B547E7500BB6D0D /* Preview Assets.xcassets in Resources */,
 				DEA065E02B547E7500BB6D0D /* Assets.xcassets in Resources */,
 			);
@@ -232,8 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA066122B549A9800BB6D0D /* LoginView.swift in Sources */,
+				DEA066172B549D7B00BB6D0D /* InputView.swift in Sources */,
 				DEA065DE2B547E7400BB6D0D /* ContentView.swift in Sources */,
-				DEA065DC2B547E7400BB6D0D /* Decks_for_AppreciationApp.swift in Sources */,
+				DEA066102B549A4500BB6D0D /* Decks_for_AppreciationApp.swift in Sources */,
+				DEA066212B54ABD300BB6D0D /* User.swift in Sources */,
+				DEA0661B2B54A7CE00BB6D0D /* ProfileView.swift in Sources */,
+				DEA066192B54A42900BB6D0D /* RegistrationView.swift in Sources */,
+				DEA0661F2B54A9C600BB6D0D /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
