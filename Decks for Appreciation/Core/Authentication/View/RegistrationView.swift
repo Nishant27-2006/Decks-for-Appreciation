@@ -24,7 +24,7 @@ struct RegistrationView: View{
             VStack(spacing: 24){
                 InputView(text: $email, title: "Email Address", placeholder: "name@example.com").autocapitalization(.none)
                 
-                InputView(text: $fullname, title: "Full Name", placeholder: "Enter your password", isSecureField: true)
+                InputView(text: $fullname, title: "Full Name", placeholder: "Enter your full name", isSecureField: true)
                 InputView(text: $password, title: "Password", placeholder: "Enter your password", isSecureField: true)
                 InputView(text: $confirmPassword, title: "Confirm Password", placeholder: "Enter your password", isSecureField: true)
             }
