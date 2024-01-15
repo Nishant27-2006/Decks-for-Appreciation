@@ -28,7 +28,7 @@ class AuthViewModel: ObservableObject {
         do {
             let result = try await Auth.auth().signIn(withEmail: email, password: password)
             self.userSession = result.user
-            //await fetchUser()
+            await fetchUser()
         } catch {
             print("DEBUG: Failed to login with error \(error.localizedDescription)")
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7DAE102B55A0DD00BF2331 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = DE7DAE0F2B55A0DD00BF2331 /* Preview Content */; };
 		DEA065DE2B547E7400BB6D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA065DD2B547E7400BB6D0D /* ContentView.swift */; };
 		DEA065E02B547E7500BB6D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA065DF2B547E7500BB6D0D /* Assets.xcassets */; };
 		DEA066102B549A4500BB6D0D /* Decks_for_AppreciationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0660F2B549A4500BB6D0D /* Decks_for_AppreciationApp.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7DAE0F2B55A0DD00BF2331 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		DEA065D82B547E7400BB6D0D /* Decks for Appreciation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decks for Appreciation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA065DD2B547E7400BB6D0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEA065DF2B547E7500BB6D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,16 +119,9 @@
 				DEA065DF2B547E7500BB6D0D /* Assets.xcassets */,
 				DEA066132B549BF800BB6D0D /* Decks of Appreciation.png */,
 				DEA066222B54B23300BB6D0D /* GoogleService-Info.plist */,
-				DEA065E12B547E7500BB6D0D /* Preview Content */,
+				DE7DAE0F2B55A0DD00BF2331 /* Preview Content */,
 			);
 			path = "Decks for Appreciation";
-			sourceTree = "<group>";
-		};
-		DEA065E12B547E7500BB6D0D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DEA066072B54990F00BB6D0D /* Model */ = {
@@ -319,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7DAE102B55A0DD00BF2331 /* Preview Content in Resources */,
 				DEA066142B549BF800BB6D0D /* Decks of Appreciation.png in Resources */,
 				DEA066232B54B23300BB6D0D /* GoogleService-Info.plist in Resources */,
 				DEA065E02B547E7500BB6D0D /* Assets.xcassets in Resources */,
